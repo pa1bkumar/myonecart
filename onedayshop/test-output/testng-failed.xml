@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.oneDayCart.testScripts.SelectbyCategory"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.oneDayCart.testScripts.SelectbyCategory">
+        <methods>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+          <include name="Selectbycategry"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.oneDayCart.testScripts.SelectbyCategory -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
